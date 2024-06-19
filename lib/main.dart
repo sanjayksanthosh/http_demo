@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:http_get/homepage.dart';
 import 'package:http_get/list_page.dart';
+import 'package:http_get/productPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,6 +12,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: UserList());
+    return MaterialApp(home: ProductPage());
   }
 }
